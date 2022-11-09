@@ -8,7 +8,6 @@
 // "hello" -> "Hello"
 pub fn capitalize_first(input: &str) -> String {
     let mut c = input.chars();
-    let mut s = String::new();
 
     match c.next() {
         None => String::new(),
